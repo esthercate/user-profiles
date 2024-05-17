@@ -10,6 +10,7 @@ export default function Home() {
           <div>
             name, career, website
           </div>
+          <div>Edit, add user icons</div>
         </div>
 
       </div>
