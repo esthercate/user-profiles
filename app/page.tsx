@@ -13,7 +13,7 @@ export default function Home() {
           <div>Edit, add user icons</div>
         </div>
         <div>Description</div>
-
+        <div>Social icons</div>
       </div>
     </main>
   )
