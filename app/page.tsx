@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,8 +11,9 @@ export default function Home() {
             <Image src='/woman.png' alt='User Profile' height={24} width={24} />
           </div>
           <div>
-
-            name, career, website
+            <h1 className="font-bold text-lg">Jane Doe</h1>
+            <p>Software Developer</p>
+            <Link>https://catherine.com</Link>
           </div>
           <div>Edit, add user icons</div>
         </div>
