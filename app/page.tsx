@@ -16,7 +16,11 @@ export default function Home() {
             <p>catherine.gmail.com</p>
             <Link href='/'>https://catherine.com</Link>
           </div>
-          <div>Edit, add user icons</div>
+          <div>
+            <Link href='/edit'>Edit icon</Link>
+            <Link href='/add'>Add User icon</Link>
+            <button>Delete icon</button>
+          </div>
         </div>
         <div>Description</div>
         <div>Social icons, linkedin, twitter, facebook</div>
