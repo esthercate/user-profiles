@@ -10,7 +10,7 @@ export default function Home() {
           <div>
             <Image src='/woman.png' alt='User Profile' height={24} width={24} />
           </div>
-          <div>
+          <div className="flex flex-col gap-2">
             <h1 className="font-bold text-lg">Jane Doe</h1>
             <p>Software Developer</p>
             <p>catherine.gmail.com</p>
