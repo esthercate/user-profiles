@@ -13,7 +13,7 @@ export default function Home() {
           <div>
             <h1 className="font-bold text-lg">Jane Doe</h1>
             <p>Software Developer</p>
-            <Link>https://catherine.com</Link>
+            <Link href='/'>https://catherine.com</Link>
           </div>
           <div>Edit, add user icons</div>
         </div>
