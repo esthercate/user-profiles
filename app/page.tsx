@@ -19,7 +19,7 @@ export default function Home() {
           <div>
             <Link href='/edit'>Edit icon</Link>
             <Link href='/add'>Add User icon</Link>
-            <button>Delete icon</button>
+            <button className='flex justify-center p-2'>Delete icon</button>
           </div>
         </div>
         <div>
