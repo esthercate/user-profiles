@@ -5,23 +5,22 @@ export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center p-12 gap-5'>
       <h1 className='text-2xl text-violet-600 font-bold'>User Profiles</h1>
-      <div className=' flex flex-col h-auto w-full rounded-lg border border-white p-8'>
+      <div className=' flex flex-col h-auto w-full rounded-lg border border-white p-8 gap-4'>
         <div className='flex justify-between'>
-          <div className='flex gap-4'>
+          <div className='flex gap-4 items-center'>
             <div>
               <Image src='/woman.png' alt='User Profile' height={70} width={70} className='border-2 border-violet-600 rounded-full p-2' />
             </div>
-            <div className='flex flex-col gap-2'>
+            <div className='flex flex-col gap-1'>
               <h1 className='font-bold text-lg'>Jane Doe</h1>
               <p>Software Developer</p>
               <p>catherine@gmail.com</p>
-              <Link href='/'>https://catherine.com</Link>
             </div>
           </div>
-          <div>
+          <div className='flex gap-2 justify-center'>
             <Link href='/edit'>Edit icon</Link>
             <Link href='/add'>Add User icon</Link>
-            <button className='flex justify-center p-2'>Delete icon</button>
+            <Link href='/delete'>Delete icon</Link>
           </div>
         </div>
         <div>
