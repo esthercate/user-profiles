@@ -8,7 +8,7 @@ export default function Home() {
       <div className=" flex flex-col h-auto w-full rounded-lg border border-white p-8">
         <div className="flex">
           <div>
-            <Image src='/woman.png' alt='User Profile' height={24} width={24} />
+            <Image src='/woman.png' alt='User Profile' height={70} width={70} className="border-2 border-violet-600 rounded-full p-2" />
           </div>
           <div className="flex flex-col gap-2">
             <h1 className="font-bold text-lg">Jane Doe</h1>
