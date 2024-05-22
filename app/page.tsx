@@ -14,7 +14,7 @@ export default function Home() {
             <div className='flex flex-col gap-2'>
               <h1 className='font-bold text-lg'>Jane Doe</h1>
               <p>Software Developer</p>
-              <p>catherine.gmail.com</p>
+              <p>catherine@gmail.com</p>
               <Link href='/'>https://catherine.com</Link>
             </div>
           </div>
