@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaUserEdit } from "react-icons/fa"
-import { MdAdd } from 'react-icons/md'
+import { MdAdd, MdOutlineEdit, MdOutlineDeleteOutline } from 'react-icons/md'
 
 export default function Home() {
   return (
@@ -21,12 +21,14 @@ export default function Home() {
           </div>
           <div className='flex gap-2 justify-center'>
             <Link href='/edit'>
-              <FaUserEdit />
+              <MdOutlineEdit />
             </Link>
             <Link href='/add'>
               <MdAdd />
             </Link>
-            <Link href='/delete'>Delete icon</Link>
+            <Link href='/delete'>
+              <MdOutlineDeleteOutline />
+            </Link>
           </div>
         </div>
         <div>
