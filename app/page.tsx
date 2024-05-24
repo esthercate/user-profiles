@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { FaUserEdit } from "react-icons/fa"
+import { MdAdd } from 'react-icons/md'
 
 export default function Home() {
   return (
@@ -18,8 +20,12 @@ export default function Home() {
             </div>
           </div>
           <div className='flex gap-2 justify-center'>
-            <Link href='/edit'>Edit icon</Link>
-            <Link href='/add'>Add User icon</Link>
+            <Link href='/edit'>
+              <FaUserEdit />
+            </Link>
+            <Link href='/add'>
+              <MdAdd />
+            </Link>
             <Link href='/delete'>Delete icon</Link>
           </div>
         </div>
