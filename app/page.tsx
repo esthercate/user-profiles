@@ -39,13 +39,13 @@ export default function Home() {
         </div>
         <div>
           <Link href='/facebook'>
-            <MdOutlineFacebook />
+            <MdOutlineFacebook size={35}/>
           </Link>
           <Link href='/facebook'>
-            <FaXTwitter />
+            <FaXTwitter size={35} />
           </Link>
           <Link href='/facebook'>
-            <FaLinkedin />
+            <FaLinkedin size={35} />
           </Link>
         </div>
       </div>
