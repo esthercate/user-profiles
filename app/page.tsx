@@ -21,13 +21,13 @@ export default function Home() {
           </div>
           <div className='flex gap-3 justify-center'>
             <Link href='/add'>
-              <MdAdd size={25} />
+              <MdAdd size={28} />
             </Link>
             <Link href='/edit'>
-              <MdOutlineEdit size={25} />
+              <MdOutlineEdit size={28} />
             </Link>
             <Link href='/delete'>
-              <MdOutlineDeleteOutline size={25} />
+              <MdOutlineDeleteOutline size={28} />
             </Link>
           </div>
         </div>
