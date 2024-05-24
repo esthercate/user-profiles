@@ -19,15 +19,15 @@ export default function Home() {
               <p>catherine@gmail.com</p>
             </div>
           </div>
-          <div className='flex gap-2 justify-center'>
-            <Link href='/edit'>
-              <MdOutlineEdit />
-            </Link>
+          <div className='flex gap-3 justify-center'>
             <Link href='/add'>
-              <MdAdd />
+              <MdAdd size={25} />
+            </Link>
+            <Link href='/edit'>
+              <MdOutlineEdit size={25} />
             </Link>
             <Link href='/delete'>
-              <MdOutlineDeleteOutline />
+              <MdOutlineDeleteOutline size={25} />
             </Link>
           </div>
         </div>
