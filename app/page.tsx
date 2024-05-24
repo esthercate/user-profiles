@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaUserEdit } from "react-icons/fa"
-import { MdAdd, MdOutlineEdit, MdOutlineDeleteOutline } from 'react-icons/md'
+import { MdAdd, MdOutlineEdit, MdOutlineFacebook, MdOutlineDeleteOutline,} from 'react-icons/md'
+import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -37,7 +37,17 @@ export default function Home() {
             pariatur dolor. Anim commodo sunt voluptate ea nulla laboris elit mollit. Amet nostrud sit ad eiusmod. Eiusmod excepteur qui dolore nisi do deserunt officia officia qui do.
           </p>
         </div>
-        <div>Social icons, linkedin, twitter, facebook</div>
+        <div>
+          <Link href='/facebook'>
+            <MdOutlineFacebook />
+          </Link>
+          <Link href='/facebook'>
+            <FaXTwitter />
+          </Link>
+          <Link href='/facebook'>
+            <FaLinkedin />
+          </Link>
+        </div>
       </div>
     </main>
   )
