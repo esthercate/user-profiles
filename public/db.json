@@ -2,7 +2,8 @@
   "users": [
     {
       "id": 1,
-      "name": "Alice Johnson",
+      "fName": "Alice",
+      "lName": "Johnson",
       "career": "Software Engineer",
       "email": "alice.johnson@example.com",
       "description": "Alice is a seasoned software engineer with over 10 years of experience in full-stack development. She specializes in building scalable web applications and has a passion for teaching coding to beginners. Alice enjoys working on open-source projects and contributing to the tech community.",
