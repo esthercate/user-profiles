@@ -44,7 +44,8 @@
     },
     {
       "id": 4,
-      "name": "David Lee",
+      "fName": "David",
+      "lName": "Lee",
       "career": "Product Manager",
       "email": "david.lee@example.com",
       "description": "David is a skilled product manager with a proven track record in managing product lifecycles and driving product strategy. He excels at understanding customer needs and translating them into successful products. David enjoys leading cross-functional teams and delivering impactful solutions.",
