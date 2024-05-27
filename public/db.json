@@ -30,7 +30,8 @@
     },
     {
       "id": 3,
-      "name": "Carol Martinez",
+      "fName": "Carol",
+      "lName": "Martinez",
       "career": "UX/UI Designer",
       "email": "carol.martinez@example.com",
       "description": "Carol is a creative UX/UI designer with a knack for creating intuitive and user-friendly interfaces. She has a background in graphic design and a keen eye for detail. Carol loves collaborating with developers and product managers to bring ideas to life.",
