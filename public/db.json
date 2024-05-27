@@ -16,7 +16,8 @@
     },
     {
       "id": 2,
-      "name": "Bob Smith",
+      "fName": "Bob",
+      "lName": "Smith",
       "career": "Data Scientist",
       "email": "bob.smith@example.com",
       "description": "Bob is a data scientist with a strong background in machine learning and statistical analysis. He has worked on various projects involving big data and predictive analytics. Bob is passionate about using data to solve real-world problems and improving decision-making processes.",
