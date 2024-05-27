@@ -58,7 +58,8 @@
     },
     {
       "id": 5,
-      "name": "Eva Brown",
+      "fName": "Eva",
+      "lName": "Brown",
       "career": "Digital Marketer",
       "email": "eva.brown@example.com",
       "description": "Eva is a digital marketer with expertise in SEO, content marketing, and social media strategy. She has a passion for creating engaging content and growing online communities. Eva is dedicated to helping businesses increase their online presence and achieve their marketing goals.",
