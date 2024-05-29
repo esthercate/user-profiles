@@ -5,7 +5,7 @@
       "fName": "Alice",
       "lName": "Johnson",
       "career": "Software Engineer",
-      "email": "alice.johnson@example.com",
+      "email": "alice.johnson@gmail.com",
       "description": "Alice is a seasoned software engineer with over 10 years of experience in full-stack development. She specializes in building scalable web applications and has a passion for teaching coding to beginners. Alice enjoys working on open-source projects and contributing to the tech community.",
       "socialMediaLinks": {
         "facebook": "https://facebook.com/alice.johnson",
@@ -19,7 +19,7 @@
       "fName": "Bob",
       "lName": "Smith",
       "career": "Data Scientist",
-      "email": "bob.smith@example.com",
+      "email": "bob.smith@gmail.com",
       "description": "Bob is a data scientist with a strong background in machine learning and statistical analysis. He has worked on various projects involving big data and predictive analytics. Bob is passionate about using data to solve real-world problems and improving decision-making processes.",
       "socialMediaLinks": {
         "facebook": "https://facebook.com/bob.smith",
