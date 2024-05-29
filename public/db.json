@@ -209,20 +209,6 @@
         "linkedin": "https://linkedin.com/in/olivialopez",
         "portfolio": "https://olivialopezhr.com"
       }
-    },
-    {
-      "id": 16,
-      "fName": "Alexander",
-      "lName": "Moose",
-      "career": "Financial Analyst",
-      "email": "alexander.moore@gmail.com",
-      "description": "Alexander is a financial analyst with a deep understanding of financial modeling, investment analysis, and risk management. He provides insights and recommendations to help businesses achieve their financial goals.",
-      "socialMediaLinks": {
-        "facebook": "https://facebook.com/alexander.moore",
-        "twitter": "https://twitter.com/amoore_finance",
-        "linkedin": "https://linkedin.com/in/alexandermoore",
-        "portfolio": "https://alexandermoorefinance.com"
-      }
     }
   ]
 }
