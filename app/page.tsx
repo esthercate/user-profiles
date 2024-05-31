@@ -47,7 +47,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <p className='text-sm text-slate-500'>
+          <p className='text-sm text-slate-400'>
             Elit voluptate dolore qui commodo est aliquip non duis magna laborum minim. Aliquip in ex minim eu amet ea qui non non voluptate. Reprehenderit duis esse excepteur quis amet velit labore deserunt do. In anim officia do ea consequat
             pariatur dolor. Anim commodo sunt voluptate ea nulla laboris elit mollit. Amet nostrud sit ad eiusmod. Eiusmod excepteur qui dolore nisi do deserunt officia officia qui do.
           </p>
