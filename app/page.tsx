@@ -18,7 +18,7 @@ export default function Home() {
             <div className='flex flex-col gap-1 text-sm'>
               <div className='flex justify-between'>
                 <h1 className='font-bold text-xl'>Jane Doe</h1>
-                <div className='flex gap-3 justify-center md:hidden'>
+                <div className='flex gap-4 justify-center md:hidden'>
                   <Link href='/add' className='hover:text-emerald-400'>
                     <MdAdd size={28} />
                   </Link>
