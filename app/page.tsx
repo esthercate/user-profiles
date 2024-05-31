@@ -34,7 +34,7 @@ export default function Home() {
               <p>catherine@gmail.com</p>
             </div>
           </div>
-          <div className='hidden md:flex gap-3 justify-center'>
+          <div className='hidden md:flex gap-4 justify-center'>
             <Link href='/add' className='hover:text-emerald-400'>
               <MdAdd size={28} />
             </Link>
