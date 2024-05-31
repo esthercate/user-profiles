@@ -15,7 +15,7 @@ export default function Home() {
             <div>
               <Image src='/woman.png' alt='User Profile' height={70} width={70} className='border-2 border-slate-400 rounded-full p-2' />
             </div>
-            <div className='flex flex-col gap-1 text-sm'>
+            <div className='flex flex-col gap-1 text-base'>
               <div className='flex justify-between'>
                 <h1 className='font-bold text-xl'>Jane Doe</h1>
                 <div className='flex gap-4 justify-center md:hidden'>
