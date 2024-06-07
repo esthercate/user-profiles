@@ -7,7 +7,7 @@ import { TbWorldWww } from "react-icons/tb";
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center p-5 md:p-12 gap-5 text-slate-300'>
+    <main className='flex min-h-screen flex-col items-center p-6 md:p-12 gap-5 text-slate-300'>
       <h1 className='text-3xl text-emerald-400 font-bold'>User Profiles</h1>
       <div className=' flex flex-col h-auto w-full rounded-lg border border-emerald-400 p-3 md:p-8 gap-4'>
         <div className='flex flex-col md:flex-row justify-between gap-3'>
