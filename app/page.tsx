@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import {lusitana} from './ui/fonts'
 import { MdAdd, MdOutlineEdit, MdOutlineDeleteOutline,} from 'react-icons/md'
 import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -47,14 +48,14 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <p className='text-sm text-slate-400'>
+          <p className={`${lusitana.className} text-sm text-slate-400`}>
             Elit voluptate dolore qui commodo est aliquip non duis magna laborum minim. Aliquip in ex minim eu amet ea qui non non voluptate. Reprehenderit duis esse excepteur quis amet velit labore deserunt do. In anim officia do ea consequat
             pariatur dolor. Anim commodo sunt voluptate ea nulla laboris elit mollit. Amet nostrud sit ad eiusmod. Eiusmod excepteur qui dolore nisi do deserunt officia officia qui do.
           </p>
         </div>
         <div className='flex gap-4'>
           <Link href='/facebook' className='hover:text-emerald-400 hover:skew-y-6'>
-           <FaFacebookSquare size={32} />
+            <FaFacebookSquare size={32} />
           </Link>
           <Link href='/twitter' className='hover:text-emerald-400 hover:skew-y-6'>
             <FaXTwitter size={32} />
