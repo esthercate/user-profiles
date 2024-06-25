@@ -21,13 +21,13 @@ export default function Page () {
               <div className='flex justify-between'>
                 <h1 className='font-bold text-xl'>Jane Doe</h1>
                 <div className='flex gap-4 justify-center md:hidden'>
-                  <Link href='/add' className='hover:text-emerald-400'>
+                  <Link href='/' className='hover:text-emerald-400'>
                     <MdAdd size={28} />
                   </Link>
-                  <Link href='/edit' className='hover:text-emerald-400'>
+                  <Link href='/' className='hover:text-emerald-400'>
                     <MdOutlineEdit size={28} />
                   </Link>
-                  <Link href='/delete' className='hover:text-emerald-400'>
+                  <Link href='/' className='hover:text-emerald-400'>
                     <MdOutlineDeleteOutline size={28} />
                   </Link>
                 </div>
@@ -55,16 +55,16 @@ export default function Page () {
           </p>
         </div>
         <div className='flex gap-4'>
-          <Link href='/facebook' className='hover:text-emerald-400 hover:skew-y-6'>
+          <Link href='/' className='hover:text-emerald-400 hover:skew-y-6'>
             <FaFacebookSquare size={32} />
           </Link>
-          <Link href='/twitter' className='hover:text-emerald-400 hover:skew-y-6'>
+          <Link href='/' className='hover:text-emerald-400 hover:skew-y-6'>
             <FaXTwitter size={32} />
           </Link>
-          <Link href='/linkedin' className='hover:text-emerald-400 hover:skew-y-6'>
+          <Link href='/' className='hover:text-emerald-400 hover:skew-y-6'>
             <FaLinkedin size={32} />
           </Link>
-          <Link href='/website.com' className='hover:text-emerald-400 hover:skew-y-6'>
+          <Link href='/' className='hover:text-emerald-400 hover:skew-y-6'>
             <TbWorldWww size={32} />
           </Link>
         </div>
