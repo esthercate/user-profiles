@@ -37,13 +37,13 @@ export default function Page () {
             </div>
           </div>
           <div className='hidden md:flex gap-4 justify-center'>
-            <Link href='/add' className='hover:text-emerald-400'>
+            <Link href='/' className='hover:text-emerald-400'>
               <MdAdd size={28} />
             </Link>
-            <Link href='/edit' className='hover:text-emerald-400'>
+            <Link href='/' className='hover:text-emerald-400'>
               <MdOutlineEdit size={28} />
             </Link>
-            <Link href='/delete' className='hover:text-emerald-400'>
+            <Link href='/' className='hover:text-emerald-400'>
               <MdOutlineDeleteOutline size={28} />
             </Link>
           </div>
