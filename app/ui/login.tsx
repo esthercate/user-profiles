@@ -10,7 +10,7 @@ export default function Login({}: Props) {
         <input type='text' placeholder='Username' className='p-3 rounded-lg w-1/2' />
         <input type='text' placeholder='Password' className='p-3 rounded-lg w-1/2' />
         <button type='submit' className='bg-emerald-400 rounded-full px-10 py-3 font-bold'>
-          Login
+         <a href='/users'> Login</a>
         </button>
       </form>
     </div>
