@@ -4,7 +4,7 @@ type Props = {}
 
 export default function Login({}: Props) {
   return (
-    <div className='w-screen flex flex-col items-center gap-10'>
+    <div className='w-screen flex flex-col items-center gap-12'>
       <h1 className='text-3xl text-emerald-400 font-bold'>Login</h1>
       <form className='flex flex-col gap-5 w-1/2 items-center'>
         <input type='text' placeholder='Username' className='p-3 rounded-lg w-1/2' />
